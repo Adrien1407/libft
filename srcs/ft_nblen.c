@@ -1,42 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_itoa.c                                          :+:      :+:    :+:   */
+/*   ft_nblen.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: adrienlanlan <adlancel@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/10/07 17:52:10 by adrienlan         #+#    #+#             */
-/*   Updated: 2020/10/07 18:33:19 by adrienlan        ###   ########.fr       */
+/*   Created: 2020/10/07 18:08:21 by adrienlan         #+#    #+#             */
+/*   Updated: 2020/10/07 18:12:02 by adrienlan        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_itoa(int n)
+size_t	ft_nblen(int n)
 {
-	size_t		i;
-	char		*num;
-	long int	long_n;
-	int			sign;
+	size_t	i;
 
-	long_n = n;
-	i = ft_nblen(long_n);
-	sign = 0;
-	if (!(num = (char*)malloc(sizeof(char) * (i + 1))))
-		return (NULL);
-	num[i] = '\0';
-	if (long_n < 0)
+	i = 0;
+	if (n < 0)
+		i++;
+	while (n)
 	{
-		long_n = -long_n;
-		num[0] = '-';
-		sign++;
+		n = n / 10;
+		i++;
 	}
-	i--;
-	while (i >= sign)
-	{
-		num[i] = long_n % 10 + 48;
-		long_n = long_n / 10;
-		i--;
-	}
-	return (num);
+	return (i);
 }
