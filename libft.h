@@ -6,7 +6,7 @@
 /*   By: adrienlanlan <adlancel@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/07 16:00:02 by adrienlan         #+#    #+#             */
-/*   Updated: 2020/10/07 16:38:19 by adrienlan        ###   ########.fr       */
+/*   Updated: 2020/10/07 16:57:28 by adrienlan        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #ifndef LIBFT_H
@@ -21,6 +21,7 @@ int ft_isdigit(int c);
 int ft_isalpha(int c);
 int ft_islower(int c);
 int ft_isupper(int c);
+int ft_isascii(int c);
 typedef struct s_list
 {
 	void *content;
