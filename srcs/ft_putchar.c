@@ -6,14 +6,13 @@
 /*   By: adrienlanlan <marvin@42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/18 11:10:54 by adrienlan         #+#    #+#             */
-/*   Updated: 2020/09/24 13:06:03 by adrienlan        ###   ########.fr       */
+/*   Updated: 2020/10/13 12:32:56 by adrienlan        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "libft.h"
 
-int	ft_putchar(int c)
+void	ft_putchar(char c)
 {
-	write(1, &c, 1);
-	return (0);
+	ft_putchar_fd(c, 1);
 }

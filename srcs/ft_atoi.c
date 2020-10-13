@@ -6,13 +6,15 @@
 /*   By: adrienlanlan <adlancel@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/15 17:30:56 by adrienlan         #+#    #+#             */
-/*   Updated: 2020/09/15 17:43:39 by adrienlan        ###   ########.fr       */
+/*   Updated: 2020/10/09 14:54:17 by adrienlan        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
 int	ft_atoi(const char *str)
 {
-	int i;
+	size_t i;
 	int negative;
 	int atoi;
 

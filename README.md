@@ -70,7 +70,7 @@ https://github.com/42Paris/norminette
 - [x] isdigit
 - [x] isalnum
 - [x] isascii
-- [ ] isprint
+- [x] isprint
 - [x] toupper
 - [x] tolower
 
@@ -83,6 +83,7 @@ https://github.com/42Paris/norminette
 - [ ] strclr
 - [ ] striter
 - [ ] striteri
+- [x] strlen
 - [ ] strmap
 - [ ] strmapi
 - [ ] strequ
@@ -93,11 +94,11 @@ https://github.com/42Paris/norminette
 - [ ] split
 - [ ] itoa
 - [x] putchar
-- [ ] putstr
+- [x] putstr
 - [ ] putendl
 - [ ] putnbr
-- [ ] putchar-fd
-- [ ] putstr-fd
+- [x] putchar-fd
+- [x] putstr-fd
 - [ ] putendl-fd
 - [ ] putnbr-fd
 

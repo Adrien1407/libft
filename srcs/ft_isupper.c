@@ -6,13 +6,13 @@
 /*   By: adrienlanlan <adlancel@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/07 16:33:23 by adrienlan         #+#    #+#             */
-/*   Updated: 2020/10/07 16:35:30 by adrienlan        ###   ########.fr       */
+/*   Updated: 2020/10/09 15:55:39 by adrienlan        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	isupper(int c)
+int	ft_isupper(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 		return (1);

@@ -6,7 +6,7 @@
 /*   By: adrienlanlan <adlancel@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/07 16:00:02 by adrienlan         #+#    #+#             */
-/*   Updated: 2020/10/07 18:35:52 by adrienlan        ###   ########.fr       */
+/*   Updated: 2020/10/13 12:32:02 by adrienlan        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #ifndef LIBFT_H
@@ -15,18 +15,31 @@
 #include <string.h>
 #include <unistd.h>
 #include <stdlib.h>
+#include <limits.h>
 
+size_t	ft_strlen(const char *s);
 int		ft_isalnum(int c);
+void	ft_putnbr(int c);
+int		ft_atoi(const char *str);
 int		ft_isdigit(int c);
+void	ft_putchar(char c);
+void	ft_putchar_fd(char c, int fd);
+void	ft_putstr(char *s);
+void	ft_putstr_fd(char *s, int fd);
 int		ft_isalpha(int c);
 int		ft_islower(int c);
 int		ft_tolower(int c);
 int		ft_toupper(int c);
 int		ft_isupper(int c);
 int		ft_isascii(int c);
+int		ft_isprint(int c);
 size_t	ft_nblen(int c);
 char	*ft_itoa(int c);
-
+char	*ft_strcat(char *s1, const char *s2);
+size_t	ft_count_words(const char *s, char c);
+void	ft_bzero(void *s1, size_t n);
+void	ft_strclr(char *s);
+int		ft_strncmp(const char *s1, const char *s2, size_t n);
 typedef struct s_list
 {
 	void *content;

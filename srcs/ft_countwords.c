@@ -1,30 +1,34 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strcat.c                                        :+:      :+:    :+:   */
+/*   ft_countwords.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: adrienlanlan <adlancel@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/10/09 14:27:57 by adrienlan         #+#    #+#             */
-/*   Updated: 2020/10/09 15:30:35 by adrienlan        ###   ########.fr       */
+/*   Created: 2020/10/09 16:29:29 by adrienlan         #+#    #+#             */
+/*   Updated: 2020/10/09 16:42:00 by adrienlan        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strcat(char *restrict s1, const char *restrict s2)
+size_t	ft_count_words(const char *s, char c)
 {
-	size_t i;
-	size_t j;
+	size_t	count;
+	int		is_word;
 
-	j = 0;
-	i = ft_strlen(s1);
-	while (s2[j])
+	is_word = 0;
+	count = 0;
+	while (*s)
 	{
-		s1[i] = s2[j];
-		i++;
-		j++;
+		if (*s == c)
+			is_word = 0;
+		else if (is_word == 0)
+		{
+			is_word = 1;
+			count++;
+		}
+		s++;
 	}
-	s1[i] = '\0';
-	return (s1);
+	return (count);
 }

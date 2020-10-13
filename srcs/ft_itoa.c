@@ -6,7 +6,7 @@
 /*   By: adrienlanlan <adlancel@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/07 17:52:10 by adrienlan         #+#    #+#             */
-/*   Updated: 2020/10/07 18:33:19 by adrienlan        ###   ########.fr       */
+/*   Updated: 2020/10/09 14:22:26 by adrienlan        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ char	*ft_itoa(int n)
 	size_t		i;
 	char		*num;
 	long int	long_n;
-	int			sign;
+	size_t		sign;
 
 	long_n = n;
 	i = ft_nblen(long_n);
