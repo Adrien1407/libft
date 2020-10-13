@@ -6,7 +6,7 @@
 /*   By: adrienlanlan <adlancel@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/07 16:00:02 by adrienlan         #+#    #+#             */
-/*   Updated: 2020/10/13 12:32:02 by adrienlan        ###   ########.fr       */
+/*   Updated: 2020/10/13 16:20:28 by adrienlan        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #ifndef LIBFT_H
@@ -24,8 +24,10 @@ int		ft_atoi(const char *str);
 int		ft_isdigit(int c);
 void	ft_putchar(char c);
 void	ft_putchar_fd(char c, int fd);
-void	ft_putstr(char *s);
-void	ft_putstr_fd(char *s, int fd);
+void	ft_putstr(const char *s);
+void	ft_putendl(const char *s);
+void	ft_putendl_fd(const char *s, int fd);
+void	ft_putstr_fd(const char *s, int fd);
 int		ft_isalpha(int c);
 int		ft_islower(int c);
 int		ft_tolower(int c);
@@ -40,6 +42,7 @@ size_t	ft_count_words(const char *s, char c);
 void	ft_bzero(void *s1, size_t n);
 void	ft_strclr(char *s);
 int		ft_strncmp(const char *s1, const char *s2, size_t n);
+char	*ft_strstr(const char *haystack, const char *needle);
 typedef struct s_list
 {
 	void *content;

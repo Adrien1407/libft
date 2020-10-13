@@ -6,13 +6,13 @@
 /*   By: adrienlanlan <adlancel@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/13 12:22:54 by adrienlan         #+#    #+#             */
-/*   Updated: 2020/10/13 12:27:04 by adrienlan        ###   ########.fr       */
+/*   Updated: 2020/10/13 14:40:13 by adrienlan        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_putstr(char *s)
+void	ft_putstr(const char *s)
 {
 	ft_putstr_fd(s, 1);
 }
