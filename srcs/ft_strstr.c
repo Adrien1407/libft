@@ -6,7 +6,7 @@
 /*   By: adrienlanlan <adlancel@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/13 16:11:50 by adrienlan         #+#    #+#             */
-/*   Updated: 2020/10/13 16:22:22 by adrienlan        ###   ########.fr       */
+/*   Updated: 2020/10/14 16:22:21 by adrienlan        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ char	*ft_strstr(const char *haystack, const char *needle)
 		while (needle[j] == haystack[i + j])
 		{
 			if (needle[j + 1] == '\0')
-				return (&(char*)haystack[i]);
+				return ((char*)&haystack[i]);
 			j++;
 		}
 		i++;

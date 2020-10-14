@@ -6,11 +6,11 @@
 /*   By: adrienlanlan <adlancel@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/15 17:47:30 by adrienlan         #+#    #+#             */
-/*   Updated: 2020/09/15 17:51:20 by adrienlan        ###   ########.fr       */
+/*   Updated: 2020/10/14 16:44:53 by adrienlan        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
+#include "libft.h"
 
 size_t	ft_strlen(const char *s)
 {

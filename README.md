@@ -62,7 +62,7 @@ https://github.com/42Paris/norminette
 - [ ] strchr
 - [ ] strrchr
 - [ ] strstr
-- [ ] strnstr
+- [x] strnstr
 - [ ] strcmp
 - [ ] strncmp
 - [x] atoi
@@ -79,27 +79,27 @@ https://github.com/42Paris/norminette
 - [ ] memalloc
 - [ ] memdel
 - [ ] strnew
-- [ ] strdel
+- [x] strdel
 - [ ] strclr
 - [ ] striter
 - [ ] striteri
 - [x] strlen
 - [ ] strmap
 - [ ] strmapi
-- [ ] strequ
+- [x] strequ
 - [ ] strnequ
 - [ ] strsub
 - [ ] strjoin
 - [ ] strtrim
 - [ ] split
-- [ ] itoa
+- [x] itoa
 - [x] putchar
 - [x] putstr
 - [ ] putendl
 - [ ] putnbr
 - [x] putchar-fd
 - [x] putstr-fd
-- [ ] putendl-fd
+- [x] putendl-fd
 - [ ] putnbr-fd
 
 # Bonus functions
