@@ -6,7 +6,7 @@
 /*   By: adrienlanlan <adlancel@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/07 16:00:02 by adrienlan         #+#    #+#             */
-/*   Updated: 2020/10/14 17:03:49 by adrienlan        ###   ########.fr       */
+/*   Updated: 2020/10/14 18:04:49 by adrienlan        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #ifndef LIBFT_H
@@ -20,6 +20,7 @@
 size_t	ft_strlen(const char *s);
 int		ft_isalnum(int c);
 void	ft_putnbr(int c);
+void	ft_putnbr_fd(int c, int fd);
 int		ft_atoi(const char *str);
 int		ft_isdigit(int c);
 void	ft_putchar(char c);
@@ -44,6 +45,7 @@ void	ft_strclr(char *s);
 int		ft_strequ(const char *s1, const char *s2);
 char	*ft_strcpy(char *dst, const char *src);
 char	*ft_strnstr(const char	*big, const char *little, size_t len);
+char	*ft_strrchr(const char *s, int c);
 int		ft_strncmp(const char *s1, const char *s2, size_t n);
 char	*ft_strnstr(const char *big, const char *little, size_t len);
 void	ft_strdel(char **as);
