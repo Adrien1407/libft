@@ -6,7 +6,7 @@
 /*   By: adrienlanlan <adlancel@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/07 16:33:23 by adrienlan         #+#    #+#             */
-/*   Updated: 2020/10/09 15:55:18 by adrienlan        ###   ########.fr       */
+/*   Updated: 2020/11/19 22:49:00 by adrienlan        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,4 +18,3 @@ int	ft_islower(int c)
 		return (1);
 	return (0);
 }
-

@@ -6,7 +6,7 @@
 /*   By: adrienlanlan <adlancel@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/07 17:52:10 by adrienlan         #+#    #+#             */
-/*   Updated: 2020/11/19 15:11:20 by adrienlan        ###   ########.fr       */
+/*   Updated: 2020/11/19 22:51:27 by adrienlan        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 static int	ft_count_digits(int n)
 {
-	int i;
+	int			i;
 
 	i = 0;
 	while (n)
@@ -24,7 +24,8 @@ static int	ft_count_digits(int n)
 	}
 	return (i);
 }
-char	*ft_itoa(int nb)
+
+char		*ft_itoa(int nb)
 {
 	char		*result;
 	int			i;
@@ -47,9 +48,8 @@ char	*ft_itoa(int nb)
 	}
 	while (i >= sign)
 	{
-		result[i] = nbr % 10 + 48;
+		result[i--] = nbr % 10 + 48;
 		nbr = nbr / 10;
-		i--;
 	}
 	return (result);
 }

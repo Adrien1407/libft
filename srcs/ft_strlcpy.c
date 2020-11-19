@@ -6,13 +6,13 @@
 /*   By: adlancel <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/08/04 20:19:03 by adlancel          #+#    #+#             */
-/*   Updated: 2020/11/19 19:03:21 by adrienlan        ###   ########.fr       */
+/*   Updated: 2020/11/19 22:52:46 by adrienlan        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h" 
+#include "libft.h"
 
-size_t	ft_strlcpy(char *s1, const char *s2, size_t  size)
+size_t	ft_strlcpy(char *s1, const char *s2, size_t size)
 {
 	size_t i;
 	size_t j;

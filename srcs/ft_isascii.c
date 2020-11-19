@@ -6,13 +6,13 @@
 /*   By: adrienlanlan <adlancel@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/07 16:51:45 by adrienlan         #+#    #+#             */
-/*   Updated: 2020/10/07 16:57:01 by adrienlan        ###   ########.fr       */
+/*   Updated: 2020/11/19 22:48:33 by adrienlan        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_isascii(int c)
+int	ft_isascii(int c)
 {
 	if (c >= 0 && c <= 127)
 		return (1);

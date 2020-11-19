@@ -6,7 +6,7 @@
 /*   By: adrienlanlan <adlancel@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/07 16:21:19 by adrienlan         #+#    #+#             */
-/*   Updated: 2020/10/15 12:20:39 by adrienlan        ###   ########.fr       */
+/*   Updated: 2020/11/19 22:48:13 by adrienlan        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,5 +16,5 @@ int	ft_isalnum(int c)
 {
 	if (ft_isdigit(c) || ft_isalpha(c))
 		return (1);
-	return(0);
+	return (0);
 }
