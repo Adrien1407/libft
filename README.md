@@ -91,7 +91,7 @@ https://github.com/42Paris/norminette
 - [ ] strsub
 - [ ] strjoin
 - [ ] strtrim
-- [ ] split
+- [x] split
 - [x] itoa
 - [x] putchar
 - [x] putstr

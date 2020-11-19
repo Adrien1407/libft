@@ -6,7 +6,7 @@
 /*   By: adrienlanlan <adlancel@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/07 16:00:02 by adrienlan         #+#    #+#             */
-/*   Updated: 2020/10/15 12:24:26 by adrienlan        ###   ########.fr       */
+/*   Updated: 2020/11/19 11:26:00 by adrienlan        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #ifndef LIBFT_H
@@ -41,9 +41,11 @@ char	*ft_itoa(int c);
 char	*ft_strcat(char *s1, const char *s2);
 size_t	ft_count_words(const char *s, char c);
 void	ft_bzero(void *s1, size_t n);
+char	**ft_split(const char *s, char c);
 void	ft_strclr(char *s);
 int		ft_strequ(const char *s1, const char *s2);
 char	*ft_strcpy(char *dst, const char *src);
+char	*ft_strstr(const char *haystack, const char *needle);
 char	*ft_strnstr(const char	*big, const char *little, size_t len);
 char	*ft_strrchr(const char *s, int c);
 char	*ft_strchr(const char *s, int c);
