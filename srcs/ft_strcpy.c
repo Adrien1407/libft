@@ -6,22 +6,22 @@
 /*   By: adrienlanlan <adlancel@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/14 16:08:14 by adrienlan         #+#    #+#             */
-/*   Updated: 2020/10/14 16:20:04 by adrienlan        ###   ########.fr       */
+/*   Updated: 2020/11/19 19:04:50 by adrienlan        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strcpy(char *dst, const char *src)
+char	*ft_strcpy(char *s1, const char *s2)
 {
 	size_t i;
 
 	i = 0;
-	while (src[i])
+	while (s2[i])
 	{
-		dst[i] = src[i];
+		s1[i] = s2[i];
 		i++;
 	}
-	dst[i] = '\0';
-	return (dst);
+	s1[i] = '\0';
+	return (s1);
 }
