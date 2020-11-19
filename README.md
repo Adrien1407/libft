@@ -95,12 +95,12 @@ https://github.com/42Paris/norminette
 - [x] itoa
 - [x] putchar
 - [x] putstr
-- [ ] putendl
-- [ ] putnbr
+- [x] putendl
+- [x] putnbr
 - [x] putchar-fd
 - [x] putstr-fd
 - [x] putendl-fd
-- [ ] putnbr-fd
+- [x] putnbr-fd
 
 # Bonus functions
 
