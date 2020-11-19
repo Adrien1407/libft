@@ -53,18 +53,18 @@ https://github.com/42Paris/norminette
 - [ ] memchr
 - [ ] memcmp
 - [x] strlen
-- [ ] strdup
+- [x] strdup
 - [x] strcpy
-- [ ] strncpy
+- [x] strncpy
 - [x] strcat
-- [ ] strncat
+- [x] strncat
 - [x] strlcat
-- [ ] strchr
-- [ ] strrchr
-- [ ] strstr
+- [x] strchr
+- [x] strrchr
+- [x] strstr
 - [x] strnstr
-- [ ] strcmp
-- [ ] strncmp
+- [x] strcmp
+- [x] strncmp
 - [x] atoi
 - [x] isalpha
 - [x] isdigit
@@ -80,16 +80,13 @@ https://github.com/42Paris/norminette
 - [ ] memdel
 - [ ] strnew
 - [x] strdel
-- [ ] strclr
-- [ ] striter
-- [ ] striteri
+- [c] strclr
 - [x] strlen
 - [ ] strmap
 - [ ] strmapi
 - [x] strequ
 - [ ] strnequ
-- [ ] strsub
-- [ ] strjoin
+- [x] strjoin
 - [ ] strtrim
 - [x] split
 - [x] itoa
