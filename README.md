@@ -54,9 +54,9 @@ https://github.com/42Paris/norminette
 - [ ] memcmp
 - [x] strlen
 - [ ] strdup
-- [ ] strcpy
+- [x] strcpy
 - [ ] strncpy
-- [ ] strcat
+- [x] strcat
 - [ ] strncat
 - [x] strlcat
 - [ ] strchr
