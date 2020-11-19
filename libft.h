@@ -6,7 +6,7 @@
 /*   By: adrienlanlan <adlancel@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/07 16:00:02 by adrienlan         #+#    #+#             */
-/*   Updated: 2020/11/19 19:11:29 by adrienlan        ###   ########.fr       */
+/*   Updated: 2020/11/19 22:41:02 by adrienlan        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #ifndef LIBFT_H
@@ -47,6 +47,7 @@ void	ft_bzero(void *s1, size_t n);
 char	**ft_split(const char *s, char c);
 void	ft_strclr(char *s);
 int		ft_strequ(const char *s1, const char *s2);
+int		ft_strnequ(const char *s1, const char *s2, size_t n);
 char	*ft_strcpy(char *s1, const char *s2);
 char	*ft_strncpy(char *s1, const char *s2, size_t n);
 size_t	ft_strlcpy(char *s1, const char *s2, size_t size);

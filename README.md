@@ -1,4 +1,4 @@
-# Info
+#Info
 Your libft.h file can contain macros and typedefs if needed.  
 • A string must ALWAYS end with a ’\0’, even if it is not included in the function’s
 description, unless explicitly stated otherwise.  
@@ -85,7 +85,7 @@ https://github.com/42Paris/norminette
 - [ ] strmap
 - [ ] strmapi
 - [x] strequ
-- [ ] strnequ
+- [x] strnequ
 - [x] strjoin
 - [ ] strtrim
 - [x] split
