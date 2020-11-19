@@ -58,7 +58,7 @@ https://github.com/42Paris/norminette
 - [ ] strncpy
 - [ ] strcat
 - [ ] strncat
-- [ ] strlcat
+- [x] strlcat
 - [ ] strchr
 - [ ] strrchr
 - [ ] strstr
