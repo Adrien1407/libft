@@ -80,7 +80,7 @@ https://github.com/42Paris/norminette
 - [ ] memdel
 - [ ] strnew
 - [x] strdel
-- [c] strclr
+- [x] strclr
 - [x] strlen
 - [ ] strmap
 - [ ] strmapi
