@@ -47,7 +47,7 @@ https://github.com/42Paris/norminette
 - [ ] calloc
 - [ ] memset
 - [x] bzero
-- [ ] memcpy
+- [x] memcpy
 - [ ] memccpy
 - [ ] memmove
 - [ ] memchr
@@ -110,10 +110,10 @@ https://github.com/42Paris/norminette
 `	struct s_list *next;`
 `} t_list;`
 
-- [ ] lstnew
-- [ ] lstdelone
-- [ ] lstdel
-- [ ] lstadd
-- [ ] lstiter
+- [x] lstnew
+- [x] lstdelone
+- [x] lstdel
+- [x] lstadd
+- [x] lstiter
 - [ ] lstmap
 
