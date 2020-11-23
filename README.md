@@ -45,7 +45,7 @@ https://github.com/42Paris/norminette
 # Functions
 
 - [ ] calloc
-- [ ] memset
+- [x] memset
 - [x] bzero
 - [x] memcpy
 - [ ] memccpy
@@ -76,14 +76,14 @@ https://github.com/42Paris/norminette
 
 # Additional functions
 
-- [ ] memalloc
+- [x] memalloc
 - [ ] memdel
-- [ ] strnew
+- [x] strnew
 - [x] strdel
 - [x] strclr
 - [x] strlen
 - [ ] strmap
-- [ ] strmapi
+- [x] strmapi
 - [x] strequ
 - [x] strnequ
 - [x] strjoin
