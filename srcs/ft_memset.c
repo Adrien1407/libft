@@ -6,22 +6,22 @@
 /*   By: adrienlanlan <adlancel@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/23 20:58:52 by adrienlan         #+#    #+#             */
-/*   Updated: 2020/11/23 21:00:49 by adrienlan        ###   ########.fr       */
+/*   Updated: 2020/11/24 23:09:17 by adrienlan        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
 
-void	*ft_memset(void *b, int c, size_t len)
+void	*ft_memset(void *s, int c, size_t n)
 {
 size_t	i;
-char	*s;
+char	*tmp;
 
 i = 0;
-s = b;
-while (i < len)
+tmp = s;
+while (i < n)
 {
-s[i] = c;
+tmp[i] = c;
 i++;
 }
-return (b);
+return (s);
 }
