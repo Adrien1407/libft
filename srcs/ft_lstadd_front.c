@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstadd_front.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: adrienlanlan <adlancel@student.42.fr>      +#+  +:+       +#+        */
+/*   By: adlancel <adlancel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/11/20 14:26:23 by adrienlan         #+#    #+#             */
-/*   Updated: 2020/11/20 14:35:21 by adrienlan        ###   ########.fr       */
+/*   Created: 2020/11/25 13:42:47 by adlancel          #+#    #+#             */
+/*   Updated: 2020/11/25 13:42:48 by adlancel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

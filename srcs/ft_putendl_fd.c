@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: adrienlanlan <adlancel@student.42.fr>      +#+  +:+       +#+        */
+/*   By: adlancel <adlancel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/11/19 13:26:12 by adrienlan         #+#    #+#             */
-/*   Updated: 2020/11/19 13:29:05 by adrienlan        ###   ########.fr       */
+/*   Created: 2020/11/25 13:50:56 by adlancel          #+#    #+#             */
+/*   Updated: 2020/11/25 13:50:59 by adlancel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

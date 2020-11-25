@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_countwords.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: adrienlanlan <adlancel@student.42.fr>      +#+  +:+       +#+        */
+/*   By: adlancel <adlancel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/10/09 16:29:29 by adrienlan         #+#    #+#             */
-/*   Updated: 2020/10/09 16:42:00 by adrienlan        ###   ########.fr       */
+/*   Created: 2020/11/25 13:40:48 by adlancel          #+#    #+#             */
+/*   Updated: 2020/11/25 14:00:56 by adlancel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

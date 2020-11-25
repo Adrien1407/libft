@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: adrienlanlan <adlancel@student.42.fr>      +#+  +:+       +#+        */
+/*   By: adlancel <adlancel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/11/24 23:05:39 by adrienlan         #+#    #+#             */
-/*   Updated: 2020/11/24 23:07:11 by adrienlan        ###   ########.fr       */
+/*   Created: 2020/11/25 13:44:23 by adlancel          #+#    #+#             */
+/*   Updated: 2020/11/25 13:44:57 by adlancel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,4 +26,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
-

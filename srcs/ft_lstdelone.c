@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstdelone.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: adrienlanlan <adlancel@student.42.fr>      +#+  +:+       +#+        */
+/*   By: adlancel <adlancel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/11/20 15:13:00 by adrienlan         #+#    #+#             */
-/*   Updated: 2020/11/20 15:20:59 by adrienlan        ###   ########.fr       */
+/*   Created: 2020/11/25 13:43:09 by adlancel          #+#    #+#             */
+/*   Updated: 2020/11/25 13:43:11 by adlancel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

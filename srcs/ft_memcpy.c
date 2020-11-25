@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: adrienlanlan <adlancel@student.42.fr>      +#+  +:+       +#+        */
+/*   By: adlancel <adlancel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/11/20 11:14:06 by adrienlan         #+#    #+#             */
-/*   Updated: 2020/11/20 13:04:09 by adrienlan        ###   ########.fr       */
+/*   Created: 2020/11/25 13:45:52 by adlancel          #+#    #+#             */
+/*   Updated: 2020/11/25 13:45:57 by adlancel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
 
 void	*ft_memcpy(void *dst, const void *src, size_t n)
