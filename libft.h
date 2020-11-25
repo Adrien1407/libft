@@ -6,7 +6,7 @@
 /*   By: adrienlanlan <adlancel@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/07 16:00:02 by adrienlan         #+#    #+#             */
-/*   Updated: 2020/11/24 23:08:02 by adrienlan        ###   ########.fr       */
+/*   Updated: 2020/11/25 13:26:21 by adlancel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #ifndef LIBFT_H
@@ -67,8 +67,11 @@ void	ft_strdel(char **as);
 char	*ft_strdup(const char *s1);
 char	*ft_strmapi(const char *s, char (*f)(unsigned int, char));
 char	*ft_substr(char const *s, unsigned int start, size_t len);
-void	*ft_memcpy(void * dst, const void *src, size_t n);
+void	*ft_memcpy(void *dst, const void *src, size_t n);
+void	*ft_memmove(void *dst, const void *src, size_t n);
+void	*ft_memccpy(void *dst, const void *src, int c, size_t n);
 void	*ft_calloc(size_t count, size_t size);
+int		ft_memcmp(const void *s1, const void *s2, size_t n);
 void	*ft_memset(void *s, int c, size_t n);
 void	*ft_memchr(const void *s, int c, size_t n);
 void	*ft_memalloc(size_t size);

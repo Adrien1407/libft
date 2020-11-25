@@ -48,10 +48,10 @@ https://github.com/42Paris/norminette
 - [x] memset
 - [x] bzero
 - [x] memcpy
-- [ ] memccpy
-- [ ] memmove
-- [ ] memchr
-- [ ] memcmp
+- [x] memccpy
+- [x] memmove
+- [x] memchr
+- [x] memcmp
 - [x] strlen
 - [x] strdup
 - [x] strcpy
