@@ -1,32 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strmap.c                                        :+:      :+:    :+:   */
+/*   ft_is_in_c.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: adlancel <adlancel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/11/26 10:52:09 by adlancel          #+#    #+#             */
-/*   Updated: 2020/11/26 10:57:29 by adlancel         ###   ########.fr       */
+/*   Created: 2020/11/26 11:01:01 by adlancel          #+#    #+#             */
+/*   Updated: 2020/11/26 11:20:20 by adlancel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strmap(const char *s, char (*f)(char))
+int	ft_is_in_c(char c, char *charset)
 {
-	size_t	i;
-	char	*str;
+	int	i;
 
 	i = 0;
-	if (!s)
-		return (NULL);
-	if (!(str = malloc(sizeof(char) * ft_strlen(s) + 1)))
-		return (NULL);
-	while (s[i])
+	while (charset[i])
 	{
-		str[i] = f(s[i]);
+		if (c == charset[i])
+			return (1);
 		i++;
 	}
-	str[i] = '\0';
-	return (str);
+	return (0);
 }

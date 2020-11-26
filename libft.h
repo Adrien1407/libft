@@ -6,7 +6,7 @@
 /*   By: adrienlanlan <adlancel@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/07 16:00:02 by adrienlan         #+#    #+#             */
-/*   Updated: 2020/11/25 13:26:21 by adlancel         ###   ########.fr       */
+/*   Updated: 2020/11/26 11:22:11 by adlancel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #ifndef LIBFT_H
@@ -42,6 +42,7 @@ int		ft_toupper(int c);
 int		ft_isupper(int c);
 int		ft_isascii(int c);
 int		ft_isprint(int c);
+int		ft_is_in_c(char c, char *charset);
 size_t	ft_nblen(int c);
 char	*ft_itoa(int c);
 char	*ft_strcat(char *s1, const char *s2);
@@ -63,8 +64,10 @@ char	*ft_strrchr(const char *s, int c);
 char	*ft_strchr(const char *s, int c);
 int		ft_strncmp(const char *s1, const char *s2, size_t n);
 char	*ft_strnstr(const char *big, const char *little, size_t len);
+char		*ft_strtrim(char const *s1, char const *set);
 void	ft_strdel(char **as);
 char	*ft_strdup(const char *s1);
+char	*ft_strmap(const char *s, char (*f)(char));
 char	*ft_strmapi(const char *s, char (*f)(unsigned int, char));
 char	*ft_substr(char const *s, unsigned int start, size_t len);
 void	*ft_memcpy(void *dst, const void *src, size_t n);
