@@ -6,20 +6,20 @@
 /*   By: adlancel <adlancel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/25 13:52:12 by adlancel          #+#    #+#             */
-/*   Updated: 2020/11/30 12:52:13 by adlancel         ###   ########.fr       */
+/*   Updated: 2020/12/01 15:18:40 by adlancel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int		is_c(char c, char d)
+int				is_c(char c, char d)
 {
 	if (c == d)
 		return (1);
 	return (0);
 }
 
-char	*ft_strndup(const char *src, int n)
+static char		*ft_strndup(const char *src, int n)
 {
 	char	*copy;
 	int		i;
@@ -36,7 +36,7 @@ char	*ft_strndup(const char *src, int n)
 	return (copy);
 }
 
-int		countwords(const char *str, char c)
+int				countwords(const char *str, char c)
 {
 	int i;
 	int wordcount;
@@ -55,7 +55,7 @@ int		countwords(const char *str, char c)
 	return (wordcount);
 }
 
-char	**ft_split(char const *s, char c)
+char			**ft_split(char const *s, char c)
 {
 	char	**tab;
 	int		i;
