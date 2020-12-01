@@ -6,7 +6,7 @@
 /*   By: adrienlanlan <adlancel@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/07 16:00:02 by adrienlan         #+#    #+#             */
-/*   Updated: 2020/11/26 18:14:22 by adlancel         ###   ########.fr       */
+/*   Updated: 2020/12/01 13:11:30 by adlancel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,7 +60,6 @@ char			*ft_strcpy(char *s1, const char *s2);
 char			*ft_strncpy(char *s1, const char *s2, size_t n);
 size_t			ft_strlcpy(char *s1, const char *s2, size_t size);
 char			*ft_strstr(const char *haystack, const char *needle);
-char			*ft_strnstr(const char	*big, const char *little, size_t len);
 char			*ft_strrchr(const char *s, int c);
 char			*ft_strchr(const char *s, int c);
 int				ft_strncmp(const char *s1, const char *s2, size_t n);

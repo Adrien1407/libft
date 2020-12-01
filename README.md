@@ -82,12 +82,12 @@ https://github.com/42Paris/norminette
 - [x] strdel
 - [x] strclr
 - [x] strlen
-- [ ] strmap
+- [x] strmap
 - [x] strmapi
 - [x] strequ
 - [x] strnequ
 - [x] strjoin
-- [ ] strtrim
+- [x] strtrim
 - [x] split
 - [x] itoa
 - [x] putchar
@@ -115,5 +115,5 @@ https://github.com/42Paris/norminette
 - [x] lstdel
 - [x] lstadd
 - [x] lstiter
-- [ ] lstmap
+- [x] lstmap
 
