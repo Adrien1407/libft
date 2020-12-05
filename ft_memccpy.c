@@ -6,7 +6,7 @@
 /*   By: adlancel <adlancel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/25 13:45:20 by adlancel          #+#    #+#             */
-/*   Updated: 2020/11/25 13:45:21 by adlancel         ###   ########.fr       */
+/*   Updated: 2020/12/04 14:55:13 by adlancel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,18 +14,18 @@
 
 void	*ft_memccpy(void *dst, const void *src, int c, size_t n)
 {
-	size_t	i;
-	char	*sd;
-	char	*sr;
+	size_t			i;
+	unsigned char	*sd;
+	unsigned char	*sr;
 
-	sd = dst;
-	sr = (void*)src;
+	sd = (unsigned char *)dst;
+	sr = (unsigned char *)src;
 	i = 0;
 	while (i < n)
 	{
 		sd[i] = sr[i];
 		i++;
-		if (sr[i - 1] == c)
+		if (sr[i - 1] == (unsigned char)c)
 			return (dst + i);
 	}
 	return (NULL);

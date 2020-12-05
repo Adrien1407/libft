@@ -1,22 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memdel.c                                        :+:      :+:    :+:   */
+/*   ft_strndup.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: adlancel <adlancel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/11/25 13:46:06 by adlancel          #+#    #+#             */
-/*   Updated: 2020/12/04 15:57:26 by adlancel         ###   ########.fr       */
+/*   Created: 2020/12/01 18:45:19 by adlancel          #+#    #+#             */
+/*   Updated: 2020/12/01 18:45:53 by adlancel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_memdel(void **ap)
+char	*ft_strndup(const char *src, int n)
 {
-	if (ap)
+	char	*copy;
+	int		i;
+
+	i = 0;
+	if (!(copy = malloc(sizeof(char) * (n + 1))))
+		return (NULL);
+	while (src[i] && i < n)
 	{
-		free(*ap);
-		*ap = NULL;
+		copy[i] = src[i];
+		i++;
 	}
+	copy[i] = '\0';
+	return (copy);
 }

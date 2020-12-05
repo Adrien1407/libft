@@ -6,7 +6,7 @@
 /*   By: adrienlanlan <adlancel@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/07 16:00:02 by adrienlan         #+#    #+#             */
-/*   Updated: 2020/12/01 13:11:30 by adlancel         ###   ########.fr       */
+/*   Updated: 2020/12/04 17:03:20 by adlancel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,10 +28,11 @@ size_t			ft_strlen(const char *s);
 int				ft_isalnum(int c);
 void			ft_putnbr(int c);
 void			ft_putnbr_fd(int c, int fd);
+int				ft_count_digits(long int n);
 int				ft_atoi(const char *str);
 int				ft_isdigit(int c);
-void			ft_putchar(char c);
-void			ft_putchar_fd(char c, int fd);
+void			ft_putchar(int c);
+void			ft_putchar_fd(int c, int fd);
 void			ft_putstr(const char *s);
 void			ft_putendl(const char *s);
 void			ft_putendl_fd(const char *s, int fd);
@@ -43,6 +44,7 @@ int				ft_toupper(int c);
 int				ft_isupper(int c);
 int				ft_isascii(int c);
 int				ft_isprint(int c);
+size_t			ft_is_c(char c, char d);
 int				ft_is_in_c(char c, char *charset);
 size_t			ft_nblen(int c);
 char			*ft_itoa(int c);
@@ -67,6 +69,7 @@ char			*ft_strnstr(const char *big, const char *little, size_t len);
 char			*ft_strtrim(char const *s1, char const *set);
 void			ft_strdel(char **as);
 char			*ft_strdup(const char *s1);
+char			*ft_strndup(const char *src, int n);
 char			*ft_strmap(const char *s, char (*f)(char));
 char			*ft_strmapi(const char *s, char (*f)(unsigned int, char));
 char			*ft_substr(char const *s, unsigned int start, size_t len);

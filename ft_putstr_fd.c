@@ -6,7 +6,7 @@
 /*   By: adlancel <adlancel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/25 13:51:59 by adlancel          #+#    #+#             */
-/*   Updated: 2020/11/25 13:52:01 by adlancel         ###   ########.fr       */
+/*   Updated: 2020/12/04 15:59:20 by adlancel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,8 @@
 
 void	ft_putstr_fd(const char *s, int fd)
 {
-	write(fd, s, ft_strlen(s));
+	if (s)
+	{
+		write(fd, s, ft_strlen(s));
+	}
 }

@@ -1,22 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memdel.c                                        :+:      :+:    :+:   */
+/*   ft_count_digits.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: adlancel <adlancel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/11/25 13:46:06 by adlancel          #+#    #+#             */
-/*   Updated: 2020/12/04 15:57:26 by adlancel         ###   ########.fr       */
+/*   Created: 2020/12/04 11:23:03 by adlancel          #+#    #+#             */
+/*   Updated: 2020/12/04 11:31:25 by adlancel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_memdel(void **ap)
+int	ft_count_digits(long int n)
 {
-	if (ap)
+	int			i;
+
+	i = 0;
+	while (n)
 	{
-		free(*ap);
-		*ap = NULL;
+		n = n / 10;
+		i++;
 	}
+	return (i);
 }

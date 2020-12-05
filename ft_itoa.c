@@ -6,24 +6,11 @@
 /*   By: adlancel <adlancel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/25 13:42:23 by adlancel          #+#    #+#             */
-/*   Updated: 2020/11/25 13:42:24 by adlancel         ###   ########.fr       */
+/*   Updated: 2020/12/04 11:23:40 by adlancel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-static int	ft_count_digits(int n)
-{
-	int			i;
-
-	i = 0;
-	while (n)
-	{
-		n = n / 10;
-		i++;
-	}
-	return (i);
-}
 
 char		*ft_itoa(int nb)
 {
@@ -37,7 +24,7 @@ char		*ft_itoa(int nb)
 	if (nb <= 0)
 		i++;
 	sign = 0;
-	if (!(result = malloc(sizeof(char) * (ft_count_digits(nb) + 1))))
+	if (!(result = malloc(sizeof(char) * (i + 1))))
 		return (NULL);
 	result[i--] = '\0';
 	if (nbr < 0)
