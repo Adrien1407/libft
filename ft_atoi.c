@@ -6,12 +6,11 @@
 /*   By: adlancel <adlancel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/25 12:49:07 by adlancel          #+#    #+#             */
-/*   Updated: 2020/12/04 14:39:34 by adlancel         ###   ########.fr       */
+/*   Updated: 2020/12/08 18:42:59 by adlancel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
 
 int	ft_atoi(const char *str)
 {

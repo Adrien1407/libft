@@ -6,11 +6,11 @@
 /*   By: adlancel <adlancel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/25 13:41:46 by adlancel          #+#    #+#             */
-/*   Updated: 2020/11/25 13:41:48 by adlancel         ###   ########.fr       */
+/*   Updated: 2020/12/08 18:42:14 by adlancel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
+#include "libft.h"
 
 int	ft_isdigit(int c)
 {

@@ -6,7 +6,7 @@
 /*   By: adrienlanlan <adlancel@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/07 16:00:02 by adrienlan         #+#    #+#             */
-/*   Updated: 2020/12/04 17:03:20 by adlancel         ###   ########.fr       */
+/*   Updated: 2020/12/08 18:45:51 by adlancel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,6 @@ int				ft_isascii(int c);
 int				ft_isprint(int c);
 size_t			ft_is_c(char c, char d);
 int				ft_is_in_c(char c, char *charset);
-size_t			ft_nblen(int c);
 char			*ft_itoa(int c);
 char			*ft_strcat(char *s1, const char *s2);
 char			*ft_strncat(char *s1, const char *s2, size_t n);
