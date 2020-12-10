@@ -6,19 +6,19 @@
 /*   By: adlancel <adlancel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/01 18:45:19 by adlancel          #+#    #+#             */
-/*   Updated: 2020/12/01 18:45:53 by adlancel         ###   ########.fr       */
+/*   Updated: 2020/12/10 14:30:10 by adlancel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strndup(const char *src, int n)
+char	*ft_strndup(const char *src, size_t n)
 {
 	char	*copy;
-	int		i;
+	size_t	i;
 
 	i = 0;
-	if (!(copy = malloc(sizeof(char) * (n + 1))))
+	if (!(copy = (char*)malloc(sizeof(char) * (n + 1))))
 		return (NULL);
 	while (src[i] && i < n)
 	{

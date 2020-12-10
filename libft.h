@@ -6,7 +6,7 @@
 /*   By: adrienlanlan <adlancel@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/07 16:00:02 by adrienlan         #+#    #+#             */
-/*   Updated: 2020/12/08 18:45:51 by adlancel         ###   ########.fr       */
+/*   Updated: 2020/12/10 13:20:17 by adlancel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,7 +68,7 @@ char			*ft_strnstr(const char *big, const char *little, size_t len);
 char			*ft_strtrim(char const *s1, char const *set);
 void			ft_strdel(char **as);
 char			*ft_strdup(const char *s1);
-char			*ft_strndup(const char *src, int n);
+char			*ft_strndup(const char *src, size_t n);
 char			*ft_strmap(const char *s, char (*f)(char));
 char			*ft_strmapi(const char *s, char (*f)(unsigned int, char));
 char			*ft_substr(char const *s, unsigned int start, size_t len);
